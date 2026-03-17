@@ -7,7 +7,6 @@ The processed dataset written to `data/processed/chomsky_corpus.jsonl` and `data
 | `record_id` | string | Stable identifier derived from URL and normalized content |
 | `section` | string | One of `articles`, `interviews`, `letters`, `talks`, `debates` |
 | `article_title` | string | Title extracted from the listing page or page content |
-| `page_title` | string | Title extracted from the detail page when available |
 | `article_date` | string or null | Normalized date in `YYYY`, `YYYY-MM`, or `YYYY-MM-DD` format |
 | `content` | string | Cleaned page text |
 | `content_length` | integer | Character length of `content` |
