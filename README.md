@@ -2,8 +2,7 @@
 # Chomsky Corpus Dataset Pipeline
 
 Scrape selected public sections from `chomsky.info`, normalize and validate the t
-text, deduplicate records, and export a publishable dataset for Hugging Face.
-
+text, deduplicate records, and export a publishable dataset.
 ## Install
 
 
